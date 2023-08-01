@@ -19,7 +19,7 @@ def stock_prices():
     fig.add_trace(go.Scatter(name = 'Amazon', x = df['date'], y = df['AMZN']))
     fig.add_trace(go.Scatter(name = 'Facebook', x = df['date'], y = df['FB']))
     fig.add_trace(go.Scatter(name = 'Netflix', x = df['date'], y = df['NFLX']))
-    fig.add_trace(go.Scatter(name = 'Micorsoft', x = df['date'], y = df['MSFT']))
+    fig.add_trace(go.Scatter(name = 'Microsoft', x = df['date'], y = df['MSFT']))
 
     fig.update_layout(
                       xaxis_title = 'Dates',
